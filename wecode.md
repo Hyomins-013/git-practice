@@ -12,4 +12,9 @@ commit 또한 두 가지의 형식이 있는데.
 하나는 git commit -m "~" 로 더블쿼터 안의 내용을 메시지로 커밋한다.
 두 번째는 git commit 으로 여러줄을 입력해 메시지를 남길수 있다. 입력할 땐 i 를 눌러 입력하다가 다 썼으면 esc를 누르고 :wq 를 눌러 저장하고 나올 수 있다.
 
+git push -> add로 "준비"를 마쳤다면 push로 본격 적으로 git 저장소에 저장할 수 있다. git push origin main 으로 올리는데, origin은 git 저장 주소를 하나하나 다 치기 귀찮으니 origin로 치환해준 것이라고 한다.
 
+
+
+그리고 더 많은 명령어 :
+git log를 치면 내가 commit한 내역들을 확인 할 수 있다.
